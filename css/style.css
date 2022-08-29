@@ -150,8 +150,10 @@ p {
 
 .block {
 	background-color: #000;
+  background-image: url('/img/brick.jpg');
+  background-size: cover;
 	border-radius: 5px;
-	color: white;
+	color: black;
 	padding-left: 15px;
 	padding-right: 15px;
 	padding-top: 40px;
@@ -180,7 +182,7 @@ p {
 }
 
 .block p {
-	font-weight: 300;
+	font-weight: 400;
 	font-size: 1.4rem;
 }
 
@@ -204,7 +206,7 @@ p {
 }
 
 .block img {
-  border: 5px solid rgba(177,	64,	68, 1);
+  border: 5px solid rgba(0,	0,	0, 1);
 }
 
 .feature2 {
